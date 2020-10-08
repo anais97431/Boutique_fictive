@@ -1,0 +1,133 @@
+
+// card de la page category
+
+.container_cat{
+    margin-bottom: 290px;
+}
+
+ .card_cat_contenu .title_cat{
+    color: rgb(126, 74, 7);
+    
+    
+    font-family: 'Courgette', cursive;
+    text-align: left;
+ 
+}
+
+.card_cat_contenu .short_desc_cat{
+     color: rgb(126, 125, 125);
+    font-family: 'Courgette', cursive;
+    text-align: left;
+    font-size: 15px;
+   
+}
+.card_cat_contenu .price_cat{
+     color: rgb(126, 125, 125);
+    font-family: 'Courgette', cursive;
+    
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.btn-ajout-panier{
+  text-align: center;
+}
+
+.category p{
+     color:  rgb(126, 125, 125);
+    font-family: 'Arial', cursive;
+    font-size: 15px;
+    text-align: left;
+    font-size: 10px;
+    
+}
+.category a{
+    text-align: center;
+}
+
+
+
+ .envoiProduct, .btn-ajout-panier, .btnLogin{
+
+color:rgb(176, 219, 119);
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(23, 85, 10);
+    box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    margin-right: 10px;
+    &:hover{
+       background-color: rgb(176, 219, 119);
+        color:rgb(21, 83, 13);
+    }
+    
+}
+.envoiProduct a{
+text-decoration: none;
+color: rgb(176, 219, 119);
+
+
+&:hover{
+      
+        color:rgb(21, 83, 13);
+    }
+}
+
+.btn-ajout-panier a{
+    text-decoration: none;
+color: rgb(176, 219, 119);
+
+
+&:hover{
+      
+        color:rgb(21, 83, 13);
+    }
+}
+
+.btnLogin a{
+    text-decoration: none;
+color: rgb(176, 219, 119);
+
+
+&:hover{
+      
+        color:rgb(21, 83, 13);
+    }
+}
+.envoiProduct{
+    width: 180px;
+    height: 35px;
+}
+ .btn-ajout-panier{
+   width: 180px;
+    height: 35px;
+    text-align: center;
+ }
+
+ .btnLogin{
+    width: 180px;
+     height: 35px;
+     text-align: center;
+  }
+.card_cat_corps{
+
+margin: 20px;
+margin-left: 120px;
+     width: 700px;
+     
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+    &:hover {
+      background-color: rgba(59, 35, 6, 0.151);
+
+    }
+}
+
+
+
+ 

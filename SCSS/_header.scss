@@ -1,0 +1,103 @@
+
+//  barre de navigation
+
+.navbar{
+    background-color: rgb(146, 125, 101) !important;
+}
+.lien_ul .lien_li .lien {
+    color: white ;
+    
+    
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+    &:hover{
+        color: rgb(58, 95, 16)
+    }
+}
+
+.bienvenue{
+color: white;
+font-style: italic;
+font-weight: bold;
+
+
+}
+
+.active {
+    
+   border-bottom: 2px solid rgb(237, 248, 218);
+   color: white !important;
+
+}
+
+
+.btn-outline-success, .btn-outline-success:active, .btn-outline-success:visited {
+    background-color: rgb(247, 246, 248) !important;
+    border-color: rgb(89, 155, 28);
+    color: rgb(103, 173, 37);
+    border: 2px solid;
+    border-radius: 50px;
+    margin-top: 5px;
+     
+font-size: 12px;
+font-family: 'Courgette', cursive;
+
+}
+
+.btn-outline-info, .btn-outline-info:active, .btn-outline-info:visited{
+     background-color: rgb(247, 246, 248) !important;
+    border-color:  rgb(182, 95, 74);
+    color: rgb(182, 95, 74);
+    border: 2px solid;
+border-radius: 50px;
+margin-top: 5px;
+ font-size: 12px;
+ font-family: 'Courgette', cursive;
+
+}
+
+.btn-outline-success:hover {
+    background-color: rgb(89, 155, 28) !important;
+    border-color: rgb(247, 246, 248);
+    border: 2px solid;
+border-radius: 50px;
+font-size: 12px;
+font-family: 'Courgette', cursive;
+}
+.btn-outline-info:hover{
+    background-color: rgb(182, 95, 74) !important;
+    border-color: rgb(247, 246, 248);
+    border: 2px solid;
+border-radius: 50px;
+font-size: 12px;
+font-family: 'Courgette', cursive;
+}
+
+ .cart{
+    margin-top: -5px;
+ 
+}
+.cart .fa-shopping-bag{
+    color: white;
+}
+
+
+ .search{
+    border: none;
+    background-color: $colorButton;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: white;
+}
+
+.form_search .searchInput{
+    border-radius: 20px;
+    height: 30px;
+    
+   
+}
+
+.liste_btn_nav li{
+    list-style: none;
+}
+

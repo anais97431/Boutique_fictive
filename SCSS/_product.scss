@@ -1,0 +1,138 @@
+ .ligne_product{
+     background-color: rgb(228, 225, 220);
+     padding-bottom : 20px;
+     
+     
+ }
+
+
+ .images{
+ margin-top: 50px;
+    margin-left: 200px;
+ }
+
+
+.description{
+
+    margin-top: 20px;
+   
+  padding: 5px;
+   box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+    // background-color: rgb(175, 156, 143);
+  justify-content: center;
+  border-radius: 15px;
+background-color: white
+}
+
+.description .title_product{
+    color: rgb(126, 74, 7);
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+ 
+}
+
+.description .short_desc_product{
+     color: rgb(126, 125, 125);
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.description .prix{
+     color: rgb(126, 125, 125);
+    font-family: 'Courgette', cursive;
+    
+    font-size: 25px;
+   
+}
+
+.description p{
+     color:  rgb(126, 125, 125);
+    font-family: 'Arial', cursive;
+    font-size: 20px;
+    text-align: left;
+    font-size: 15px;
+   
+}
+.description a{
+    text-align: center;
+}
+
+
+.description .ajouter_panier{
+     margin: 20px;
+}
+.description .label_quantity{
+    color:  rgb(126, 125, 125);
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    text-align: left;
+    font-size: 15px;  
+}
+
+.description .form-product{
+
+    margin: 50px;
+}
+.vignette{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn-ajout-panier-product, #btnLoginProduct{
+
+    color:rgb(176, 219, 119);
+        font-family: 'Courgette', cursive;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(23, 85, 10);
+        box-shadow: 0 0 10px  rgba(0,0,0, 0.63);
+        border-radius: 5px;
+        border: none;
+        outline: 0;
+        margin-right: 10px;
+        margin-top: 20px;
+        &:hover{
+           background-color: rgb(176, 219, 119);
+            color:rgb(21, 83, 13);
+        }
+        
+    }
+    
+    
+    .btn-ajout-panier-product a{
+        text-decoration: none;
+    color: rgb(176, 219, 119);
+    
+    
+    &:hover{
+          
+            color:rgb(21, 83, 13);
+        }
+    }
+    
+    #btnLoginProduct a{
+        text-decoration: none;
+    color: rgb(176, 219, 119);
+    
+    
+    &:hover{
+          
+            color:rgb(21, 83, 13);
+        }
+    }
+   
+     .btn-ajout-panier-product{
+       width: 180px;
+        height: 35px;
+        text-align: center;
+     }
+    
+     #btnLoginProduct{
+        width: 180px;
+         height: 35px;
+         text-align: center;
+      }

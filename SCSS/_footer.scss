@@ -1,0 +1,23 @@
+
+.bandeau_footer{
+    background-color: rgb(146, 125, 101);
+  
+    
+}
+
+.bandeau_footer_col1 a, .bandeau_footer_col2 a{
+    color: $colorGreenWhite;
+   font-family: 'Emilys Candy', cursive;
+    &:hover{
+        color:  rgb(236, 221, 217);
+
+    }
+}
+
+   .bandeau_footer_col1 h5, .bandeau_footer_col2 h5, .bandeau_footer_img h5{
+  color: rgb(236, 221, 217);
+ font-family: 'Emilys Candy', cursive;
+   }
+.bandeau_footer_col1, .bandeau_footer_col2, .bandeau_footer_img{
+    margin-top: 20px;
+}
